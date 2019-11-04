@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Spoops.Game.Effect
+namespace Spoops.Game.Actor
 {
-    public interface IEffect
+    class Skills
     {
 
     }
