@@ -8,12 +8,13 @@ namespace Spoops.Game.Actor
     {
         // Base Stats
         public int Level { get; set; }
+        public int CurrentExperience { get; set; }
+        public int TotalExperience { get; set; }
         public int HP { get; set; }
         public int Mana { get; set; }
         public int Strength { get; set; }
+        public int Intelligence { get; set; }
         public int Magic { get; set; }
-        public int Defence { get; set; }
-        public int MagicDefence { get; set; }
         public int Agility { get; set; }
         // Elemental Resistances
         public IResistances Resistances { get; set; }
