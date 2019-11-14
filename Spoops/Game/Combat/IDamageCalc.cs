@@ -7,6 +7,6 @@ namespace Spoops.Game.Combat
 {
     interface IDamageCalc
     {
-        public int GetDamage(DamageType damageType, int damageAmount, Stats actorStats);
+        public int GetDamage(DamageType damageType, int damageAmount, ActorStats actorStats);
     }
 }

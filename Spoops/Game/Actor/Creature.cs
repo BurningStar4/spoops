@@ -10,7 +10,7 @@ namespace Spoops.Game.Actor
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public Stats Stats { get; set; }
+        public ActorStats Stats { get; set; }
         public void AttackTarget(IActor actor)
         {
             throw new NotImplementedException();
@@ -28,7 +28,7 @@ namespace Spoops.Game.Actor
 
         public string GetDescription()
         {
-            throw new NotImplementedException();
+            return Description;
         }
     }
 }
