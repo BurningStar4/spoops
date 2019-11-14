@@ -21,14 +21,14 @@ namespace Spoops.Game.Actor
             throw new NotImplementedException();
         }
 
-        public void Talk()
+        public void Talk(IActor actor)
         {
             throw new NotImplementedException();
         }
 
         public string GetDescription()
         {
-
+            throw new NotImplementedException();
         }
     }
 }

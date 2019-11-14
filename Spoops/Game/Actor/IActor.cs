@@ -8,7 +8,7 @@ namespace Spoops.Game.Actor
     {
         public void Move();
         public void AttackTarget(IActor actor);
-        public void Talk();
+        public void Talk(IActor actor);
         public string GetDescription();
     }
 }
