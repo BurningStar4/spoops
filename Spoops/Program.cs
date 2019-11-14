@@ -6,7 +6,15 @@ namespace Spoops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Do Database Stuff
+            // Start API
+            while (true)
+            {
+                // Wait for main menu choice
+                // Load either New or saved game
+
+                Console.WriteLine("Welcome to Spoops !!!");
+            }
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Spoops.Game.Actor
 {
-    public class Stats
+    public class ActorStats
     {
         // Base Stats
         public int Level { get; set; }
@@ -29,11 +29,11 @@ namespace Spoops.Game.Actor
         public double CooldownReduction { get; set; }
         public double Accuracy { get; set; }
         public double SpellAccuracy { get; set; }
-        public Stats ()
+        public ActorStats ()
         {
             
         }
-        public Stats(int newHP = 1)
+        public ActorStats(int newHP = 1)
         {
             HP = newHP;
             Mana = 1;
