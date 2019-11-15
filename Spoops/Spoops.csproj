@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <Folder Include="Game\Items\" />
+    <Folder Include="Game\Actor\Skills\" />
+    <Folder Include="API\" />
   </ItemGroup>
 
 </Project>
