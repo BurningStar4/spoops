@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Spoops.Game.Item
+namespace Spoops.Game.Items
 {
-    public class Weapon : Equipment
+    public abstract class Item : IItem
     {
-        public override void Equip()
+        public void CombineItem(IItem item)
         {
             throw new NotImplementedException();
         }
 
-        public override void GetDescription()
+        public void DropItem()
         {
             throw new NotImplementedException();
         }
 
-        public override void Unequip()
+        public void UseItem()
         {
             throw new NotImplementedException();
         }

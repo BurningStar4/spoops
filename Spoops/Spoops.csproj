@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Game\Item\" />
+    <Folder Include="Game\Items\" />
   </ItemGroup>
 
 </Project>

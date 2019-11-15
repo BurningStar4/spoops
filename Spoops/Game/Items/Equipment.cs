@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Spoops.Game.Item
+namespace Spoops.Game.Items
 {
     public abstract class Equipment : Item
     {
